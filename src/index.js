@@ -1,6 +1,6 @@
 //jshint esversion: 6
 
-import {fetchWithTimeout} from "./services.js";
+import {fetchWithTimeout} from "./services";
 
 let movies = require("./data/movies.json");
 
