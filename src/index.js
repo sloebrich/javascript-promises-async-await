@@ -1,7 +1,7 @@
 //jshint esversion: 6
-let movies = require("/data/movies.json");
+let movies = require("./data/movies.json");
 
-import fetchWithTimeout from "./services.js";
+import {fetchWithTimeout} from "./services.js";
 
 export function fetchMovies(){
   const resolveFunction = () => movies;
