@@ -27,5 +27,5 @@ const getBooksOrMoviesPromise = getBooksOrMovies();
 
 getBooksOrMoviesPromise.then(
 function(results){
-  console.log('getBookOrMoviesPromise', results);
+  console.log('getBooksOrMoviesPromise', results);
 });
